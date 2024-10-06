@@ -23,12 +23,12 @@
 ## Dataset Citation
 Our project uses the following datasets: 
 
-Centers for Disease Control and Prevention. (2023). National Health and Nutrition Examination Survey (NHANES): August 2021 to August 2023 [Data file]. https://www.cdc.gov/nchs/nhanes/index.htm. Accessed October 5, 2024.
+Centers for Disease Control and Prevention. (2023). National Health and Nutrition Examination Survey (NHANES): August 2021 to August 2023 [Data file].(https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023). Accessed October 5, 2024.
 
 
 ### Data Files
 
-Data File    | Data FileName                                                | Key Variables                    
+Data File    | Data File Name                                               | Key Variables                    
 -------------|--------------------------------------------------------------|----------------
 'DEMO_L.XPT' |Demographics data: Demographic variables and sample weights   | 
 `TCHOL_L.XPT'|Laboratory data: Cholesterol - Total                          |
