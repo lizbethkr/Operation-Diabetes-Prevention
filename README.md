@@ -9,13 +9,15 @@
 2. Create Virtual Environment
     - python -m venv venv
 3. Activate the Virtual Environment
+   
     Windows: 
     - venv\Scripts\activate
+   
     MacOS
     - source venv/bin/activate
-4. Install Required Packages
+5. Install Required Packages
     - pip install -r requirements.txt
-5. Deactivate the Virtual Environment when finished working
+6. Deactivate the Virtual Environment when finished working
     - deactivate
 
 ## Dataset Citation
