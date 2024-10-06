@@ -1,12 +1,30 @@
 # Operation-Diabetes-Prevention
 
+# Describe project, purpose, and goals
+
+## Setting Up the Virtual Enviornment
+1. Clone the Project Repository
+    - git clone <repository_url>
+    - cd <repository_directory>
+2. Create Virtual Environment
+    - python -m venv venv
+3. Activate the Virtual Environment
+    Windows: 
+    - venv\Scripts\activate
+    MacOS
+    - source venv/bin/activate
+4. Install Required Packages
+    - pip install -r requirements.txt
+5. Deactivate the Virtual Environment when finished working
+    - deactivate
+
 ## Dataset Citation
 Our project uses the following datasets: 
 
 Centers for Disease Control and Prevention. (2023). National Health and Nutrition Examination Survey (NHANES): August 2021 to August 2023 [Data file]. https://www.cdc.gov/nchs/nhanes/index.htm. Accessed October 5, 2024.
 
 
-### Data Files Summary
+### Data Files
 
 Data File    | Data FileName                                                | Key Variables                    
 -------------|--------------------------------------------------------------|----------------
