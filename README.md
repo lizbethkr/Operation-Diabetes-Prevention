@@ -10,7 +10,7 @@ Centers for Disease Control and Prevention. (2023). National Health and Nutritio
 
 Data File    | Data FileName                                                | Key Variables                    
 -------------|--------------------------------------------------------------|----------------
-`DEMO_L.XPT` |Demographics data: Demographic variables and sample weights   | 
+'DEMO_L.XPT' |Demographics data: Demographic variables and sample weights   | 
 `TCHOL_L.XPT'|Laboratory data: Cholesterol - Total                          |
 'DIQ_L.XPT'  |Questionnaire data: Diabetes                                  |
 'DBQ_L.XPT'  |Questionnaire data: Diet Behavior and Nutrition               |
