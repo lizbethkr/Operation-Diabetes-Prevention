@@ -37,7 +37,6 @@ Data File    | Data File Name                                               | Ke
 'BPQ_L.XPT'  |Questionnaire data: Blood Pressure and Cholesterol            |
 'PAQ_L.XPT'  |Questionnaire data: Physical Activity                         |
 'ALQ_L.XPT'  |Questionnaire data: Alcohol Use                               |
-'HSQ_L.XPT'  |Questionnaire data: Current Health Status                     |
 'INQ_L.XPT'  |Questionnaire data: Income                                    |
 'DPQ_L.XPT'  |Questionnaire data: Mental Health - Depression Screener       |
 'SMQ_L.XPT   |Questionnaire data: Smoking - Cigarette Use                   |
