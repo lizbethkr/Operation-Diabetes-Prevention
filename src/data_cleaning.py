@@ -6,7 +6,7 @@ import os
 
 def filter_columns(df):
     columns = [
-        'SEQN', # 'RIDAGEYR', 'RIDRETH3', 'DMDBORN4', 'DMDEDUC2', 'DMDMARTZ', 'DMDHHSIZ', 'INDFMPIR',    # DEMO_L.XPT
+        'SEQN', 'RIDAGEYR', 'RIDRETH3', 'DMDBORN4', 'DMDEDUC2', 'DMDMARTZ', 'DMDHHSIZ', 'INDFMPIR',    # DEMO_L.XPT
         'LBDTCSI',  # TCHOL_L.XPT
         'DIQ010', 'DID040', 'DIQ160',  # DIQ_L.XPT
         'DBQ930', 'DBQ940', 'DBQ945',  # DBQ_L.XPT
