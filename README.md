@@ -9,24 +9,26 @@
 2. Create Virtual Environment
     - python -m venv venv
 3. Activate the Virtual Environment
+   
     Windows: 
     - venv\Scripts\activate
+   
     MacOS
     - source venv/bin/activate
-4. Install Required Packages
+5. Install Required Packages
     - pip install -r requirements.txt
-5. Deactivate the Virtual Environment when finished working
+6. Deactivate the Virtual Environment when finished working
     - deactivate
 
 ## Dataset Citation
 Our project uses the following datasets: 
 
-Centers for Disease Control and Prevention. (2023). National Health and Nutrition Examination Survey (NHANES): August 2021 to August 2023 [Data file]. https://www.cdc.gov/nchs/nhanes/index.htm. Accessed October 5, 2024.
+Centers for Disease Control and Prevention. (2023). National Health and Nutrition Examination Survey (NHANES): August 2021 to August 2023 [Data file].(https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?Cycle=2021-2023). Accessed October 5, 2024.
 
 
 ### Data Files
 
-Data File    | Data FileName                                                | Key Variables                    
+Data File    | Data File Name                                               | Key Variables                    
 -------------|--------------------------------------------------------------|----------------
 'DEMO_L.XPT' |Demographics data: Demographic variables and sample weights   | 
 `TCHOL_L.XPT'|Laboratory data: Cholesterol - Total                          |
