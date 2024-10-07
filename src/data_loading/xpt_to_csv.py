@@ -2,7 +2,6 @@ import pandas as pd
 import os 
 import xport
 
-print("Current working directory:", os.getcwd())
 
 xpt_dir = os.path.abspath('data/raw/xpt_files/')
 csv_dir = os.path.abspath('data/raw/csv_files/')

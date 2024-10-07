@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Folders
-/data/raw/U.S._Chronic_Disease_Indicators__CDI___2023_Release.csv
+
 
 # Distribution / packaging
 .Python
