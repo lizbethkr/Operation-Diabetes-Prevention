@@ -32,17 +32,13 @@ def convert_to_null(df):
     'SMQ040', 'DPQ010', 'DPQ020', 'DPQ030', 'DPQ040', 'DPQ050', 'DPQ060',
     'DPQ070', 'DPQ080', 'DPQ090', 'DPQ100']
     
-    df[cols_above_7] = df[cols_above_7].applymap(lambda x: np.nan if x > 7 else x)
+    df.loc[:, cols_above_7] = df.loc[:, cols_above_7].apply(lambda col: col.map(lambda x: np.nan if x > 7 else x))
 
-    df['PAD680'] = df['PAD680'].apply(lambda x: np.nan if x > 1380 else x)
-
-    df['ALQ130'] = df['ALQ130'].apply(lambda x: np.nan if x > 15 else x)
-
-    df['ALQ142'] = df['ALQ142'].apply(lambda x: np.nan if x > 10 else x)
-
-    df['ALQ280'] = df['ALQ280'].apply(lambda x: np.nan if x > 10 else x)
-
-    df['DID040'] = df['DID040'].apply(lambda x: np.nan if x > 80 else x)    
+    df.loc[:, 'PAD680'] = df['PAD680'].map(lambda x: np.nan if x > 1380 else x)
+    df.loc[:, 'ALQ130'] = df['ALQ130'].map(lambda x: np.nan if x > 15 else x)
+    df.loc[:, 'ALQ142'] = df['ALQ142'].map(lambda x: np.nan if x > 10 else x)
+    df.loc[:, 'ALQ280'] = df['ALQ280'].map(lambda x: np.nan if x > 10 else x)
+    df.loc[:, 'DID040'] = df['DID040'].map(lambda x: np.nan if x > 80 else x)
 
     return df
 
@@ -97,7 +93,7 @@ def map_cat_vars(df):
         # Diabetes
         1: 'Yes', 2: 'No', 3: 'Borderline'})
 
-    df['DID160'] = df['DID160'].map({
+    df['DIQ160'] = df['DIQ160'].map({
         # Told you have prediabetes
         1: 'Yes', 2: 'No'  })
 
@@ -209,3 +205,5 @@ def map_cat_vars(df):
     df['SMQ040'] = df['SMQ040'].map({
         # smoking status
         1: 'Every day', 2: 'Some days', 3: 'Not at all' })
+    
+    return df
