@@ -2,7 +2,7 @@ import os
 
 # Run this code to check the size of the files within a specific directory
 
-directory = 'data/raw/csv_files'
+directory = 'data/cleaned/'
 
 files = [f for f in os.listdir(directory)]
 
