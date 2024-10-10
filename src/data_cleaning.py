@@ -49,9 +49,8 @@ def map_cat_vars(df):
         # Race-Ethnicity
         1: 'Mexican American',
         2: 'Other Hispanic',
-        3: 'Other Hispanic',
-        4: 'Non-Hispanic White',
-        5: 'Non-Hispanic Black',
+        3: 'Non-Hispanic White',
+        4: 'Non-Hispanic Black',
         6: 'Non-Hispanic Asian',
         7: 'Other Race (Including Multiracial)'
     })
