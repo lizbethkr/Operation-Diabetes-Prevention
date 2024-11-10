@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "website/Operation-Diabetes-Prevention",
+        "src": "website/*",
         "use": "@vercel/static"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/website/Operation-Diabetes-Prevention"
+        "dest": "/website/$1"
       }
     ]
   }
