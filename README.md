@@ -1,7 +1,5 @@
 # Operation-Diabetes-Prevention
 
-# Describe project, purpose, and goals
-
 ## Setting Up the Virtual Enviornment
 1. Clone the Project Repository
     - git clone <repository_url>
