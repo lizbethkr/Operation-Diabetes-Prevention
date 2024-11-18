@@ -8,7 +8,7 @@ statsmodels==0.14.2
 pyreadstat==1.2.7
 #xport==3.6.1
 tqdm==4.66.5
-flask==2.1.1
+flask==2.2.5
 flask-cors==4.0.2
 joblib==1.1.0
 numpy==1.22.0
