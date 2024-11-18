@@ -1,6 +1,6 @@
 # Operation-Diabetes-Prevention
 
-Website Link: [https://operation-diabetes-prevention-qweia6g7m-lizbeth-s-projects.vercel.app](https://operation-diabetes-prevention.vercel.app/)
+Website Link: https://operation-diabetes-prevention.vercel.app/
 
 ## Setting Up the Virtual Enviornment
 1. Clone the Project Repository
