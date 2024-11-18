@@ -10,6 +10,6 @@ pyreadstat==1.2.7
 tqdm==4.66.5
 flask==2.2.5
 flask-cors==4.0.2
-joblib==1.1.0
+joblib==1.2.0
 numpy==1.22.0
 
